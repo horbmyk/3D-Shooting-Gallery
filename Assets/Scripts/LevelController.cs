@@ -27,7 +27,7 @@ namespace ShootingGallery
             TimeTotalLevel = 60;
             Score_Target = 0;
             TimeTotalLevelResult = 0;
-            ScoreTarget_txt.text = "Score " + Score_Target.ToString();
+            ScoreTarget_txt.text = "Score " + Score_Target.ToString()+" /10";
         }
 
         void Update()
@@ -52,7 +52,7 @@ namespace ShootingGallery
         {
             TimeCurrentTarget = 10;
             Score_Target++;
-            ScoreTarget_txt.text = "Score " + Score_Target.ToString();
+            ScoreTarget_txt.text = "Score " + Score_Target.ToString() + " /10";
 
             if (Score_Target == 10)
                 EndGame(true);
