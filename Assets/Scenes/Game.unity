@@ -1305,7 +1305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerCamera: {fileID: 1885926271}
-  Sensitivity: 5
+  Sensitivity: 2
   Smoothness: 0.1
 --- !u!1 &1052536434
 GameObject:
