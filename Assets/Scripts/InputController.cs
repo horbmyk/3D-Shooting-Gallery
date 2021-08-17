@@ -8,7 +8,7 @@ namespace ShootingGallery
         [SerializeField] private Shooting Shooting;
         [SerializeField] private WeaponsControler WeaponsControler;
 
-        private void Update()
+        private void FixedUpdate()
         {
             Player.Rotation(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));//Rotate player
 

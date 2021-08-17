@@ -27,10 +27,10 @@ namespace ShootingGallery
             TimeTotalLevel = 60;
             Score_Target = 0;
             TimeTotalLevelResult = 0;
-            ScoreTarget_txt.text = "Score " + Score_Target.ToString()+" /10";
+            ScoreTarget_txt.text = "Score " + Score_Target.ToString() + " /10";
         }
 
-        void Update()
+        private void FixedUpdate()
         {
             TimeCurrentTarget -= Time.deltaTime;
             TimeCurrentTarget_txt.text = "Curent left " + Math.Round(TimeCurrentTarget).ToString() + " Seconds";
